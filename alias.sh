@@ -1,4 +1,4 @@
-PS1='\w\n -> 'Add commentMore actions
+PS1='\[\e[1;30;47m\][\t]\[\e[0m\] \[\e[1m\] \u@\h:\[\e[0m\]'
 
 alias ..='cd ..'
 alias bashup='source ~/.bashrc'
