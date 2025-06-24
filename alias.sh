@@ -1,4 +1,4 @@
-PS1='\[\e[1;30;47m\][\t]\[\e[0m\] \[\e[1m\] \u@\h:\[\e[0m\]'
+PS1='\[\e[1;30;47m\][\t]\[\e[0m\]  \[\e[1m\]\u \w:\[\e[0m\] '
 
 alias ..='cd ..'
 alias bashup='source ~/.bashrc'
