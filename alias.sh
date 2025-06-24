@@ -27,12 +27,10 @@ alias yt='yt-dlp'
 alias dw='cd Downloads'
 alias shut='sudo shutdown now'
 
-rename() {
-  local old="$1"
-  local new="$2"
-	  if [[ -z "$old" || -z "$new" ]]; then
-	    echo "Uso: rename -> new"
+ren() {
+  if [[ $# -ne 2 ]]; then
+    echo "Uso: ren <arquivo_antigo> <arquivo_novo>"
     return 1
   fi
-  mv "$old" "$new"
+  mv "$1" "$2"
 }
