@@ -9,17 +9,27 @@ alias hmm='echo whaaa?'
 
 gad() { git add . && git commit -m "$*"; }
 
+# git
+
 alias g='git'
 alias pull='git pull'
 alias push='git push'
 alias add='git add'
 alias com='git commit -m'
-alias q='exit'
+
+# ! distro: debian
+
 alias suin='sudo apt install'
 alias sup='sudo apt update'
 alias supg='sudo apt upgrade'
+
+# !e
+
 alias c='clear'
-alias cls='clear'
+
+alias q='exit'
+alias up='source ~/.bashrc'
+
 alias docs='cd ~/Documentos'
 alias docs='cd ~/Documents'
 
