@@ -34,4 +34,3 @@ rename() {
   fi
   mv "$old" "$new"
 }
-Add comment
