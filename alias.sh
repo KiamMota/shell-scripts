@@ -6,6 +6,8 @@ alias ..='cd ..'
 alias bashup='source ~/.bashrc'
 alias hmm='echo whaaa?'
 
+gad() { git add . && git commit -m "$*"; }
+
 alias g='git'
 alias pull='git pull'
 alias push='git push'
