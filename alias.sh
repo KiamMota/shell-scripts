@@ -1,3 +1,5 @@
+# this barline is only available with jetbrains mono font
+
 PS1='\[\e[1;30;47m\][\t]\[\e[0m\]  \[\e[1m\]\u \w:\[\e[0m\] '
 
 alias ..='cd ..'
