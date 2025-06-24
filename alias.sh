@@ -1,3 +1,4 @@
+
 # this barline is only available with jetbrains mono font
 
 PS1='\[\e[1;30;47m\][\t]\[\e[0m\]  \[\e[1m\]\u \w:\[\e[0m\] '
@@ -21,7 +22,10 @@ alias c='clear'
 alias cls='clear'
 alias docs='cd ~/Documentos'
 alias docs='cd ~/Documents'
-alias bashrc='hx ~/.bashrc'
+
+alias nnbashrc='nano ~/.bashrc'
+alias hxbash='hx ~/.bashrc'
+
 alias in='cd'
 alias ytmp3='yt-dlp -x --audio-format mp3'
 alias ytmp3as='yt-dlp -x --audio-format mp3 -o'
